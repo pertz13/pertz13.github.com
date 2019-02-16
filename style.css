@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+
+a {
+        color:black;
+        text-decoration: none;
+    }
+
+h1 {
+    font-size:14px;
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+    border-bottom:1px solid white;
+    margin:0px;
+    padding:20px;
+    }
+
+#grid ul {
+    color:gray;
+    border-right:1px solid white;
+    width:0.5fr;
+    margin:0px;
+    padding:20px;
+    font-size:12px;
+    font-family: 'PT Sans', sans-serif;
+    }
+
+    h2 {
+        font-size:12px;
+        font-family: 'PT Sans', sans-serif;
+
+    }
+
+    p{
+        color:black;
+        margin:0px;
+        font-size:12px;
+        font-family: 'PT Sans', sans-serif;
+
+    }
+
+#grid{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    }
+
+#article{
+    padding:10px;
+    padding-left:20px;
+    }
+    
+    body {
+        margin:10px;
+    }
+    @media(max-width:530px){
+        #grid{
+        display: block;
+        }
+        #grid ul{
+            border-right:none;
+            border-bottom:1px solid white;
+        }
+            
+        
+        #article{
+                padding-left:10px;}
+
+        }
