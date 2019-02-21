@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@pertztheson</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="grid">
+<h1><a href="index.html">@pertztheson</a></h1>     
+<ul>  
+
+    <p><a href="profile.html">Profile</a></p>
+    <p><a href="work.html">Work</a></p>
+    <p><a href="photo.html">Photograph</a></p>
+    <p><a href="job.html">Job</a></p>
+</ul>
+</div>
+   
+    
+<div id="article">
+<input id="night_day" type="button" value="night" onclick="
+var target = document.querySelector('body');
+if(this.value === 'night'){
+    target.style.backgroundColor = 'black';
+    this.value = 'day';
+} else {
+    target.style.backgroundColor = 'white';
+    this.value = 'night';
+}
+">
+
+</div>
+<p align="right">2019 @pertztheson All Rights Reserved.</p>
+</body>
+</html>
