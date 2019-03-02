@@ -23,7 +23,7 @@
     <br><br>
     <!-- 가로는 180px~~--><div id="opacity">
         <p><a target="_blank" rel="noopener noreferrer" href="http://blkstr.kr"><img src="https://i.imgur.com/fIwDOHp.png" width=50%></a></p>
-        <p>Black Color Concept Store</p>
+        <p>Black Color Concept Store 검은상점 or BLKSTR</p>
         <br>
         <p><a target="_blank" rel="noopener noreferrer" href="https://instagram.com/thugvoy"><img src="https://i.imgur.com/MQwgOw7.png" width=50%></a></p>
         <p>Thugbokki Gang</p>
@@ -33,6 +33,16 @@
 </div>
 
 <br><br>
+<p align="right"><input id="night_day" type="button" value="night" onclick="
+var target = document.querySelector('body');
+if(this.value === 'night'){
+    target.style.backgroundColor = 'Black';
+    this.value == 'day';
+} else {
+    target.style.backgroundColor = 'white';
+    this.value == 'night';
+}
+"></p>
 <p align="right">2019 <a href="index.html">@pertztheson</a> All Rights Reserved.</p>
 </body>
 </html>

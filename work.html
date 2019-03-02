@@ -33,6 +33,16 @@
 -->
 </div>
 <br><br>
+<p align="right"><input id="night_day" type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+        target.style.backgroundColor = 'Black';
+        this.value == 'day';
+    } else {
+        target.style.backgroundColor = 'white';
+        this.value == 'night';
+    }
+    "></p>
 <p align="right">2019 <a href="index.html">@pertztheson</a> All Rights Reserved.</p>
 </body>
 </html>

@@ -8,8 +8,8 @@
 <body>
 
 <div id="grid">
-<h1><a href="index.html">@pertztheson</a></h1>     
-<ul>  
+<h1><a href="index.html">@pertztheson</a></h1>
+<ul>
 
     <p><a href="profile.html">Profile</a></p>
     <p><a href="work.html">Work</a></p>
@@ -17,25 +17,38 @@
     <p><a href="job.html">Processing</a></p>
 </ul>
 </div>
-   
-    
+
+
 <div id="article">
     <br><br>
-    <p><div id="opacity"><a target="_blank" rel="noopener noreferrer" href="https://i.imgur.com/czdIATM.jpg"><img src="https://i.imgur.com/czdIATM.jpg" width=50%></a></p></div>
+    <p><div id="opacity"><div id="pic"><a target="_blank" rel="noopener noreferrer" href="https://i.imgur.com/czdIATM.jpg"><img src="https://i.imgur.com/czdIATM.jpg"></a></p></div></div>
     <p>Bongjun Son</p>
     <p>pertztheson</p>
     <p><a href="mailto:themassivesoul@gmail.com?subject=Hi There">
             themassivesoul@gmail.com</a></p>
     <p>Ansan, Korea</p>
     <br>
+    <p>Amateur Musician, Developer, Designer, Photographer, etc ..</p>
+
     <br>
-    <p><a target="_blank" rel="noopener noreferrer" href="http://instagram.com/pertztheson">I</a></p>
-    <p><a target="_blank" rel="noopener noreferrer" href="http://soundcloud.com/pertztheson">S</a></p>
-    <p><a target="_blank" rel="noopener noreferrer" href="http://facebook.com/sonbongjun">F</a></p>
-    <p><a href="https://www.musinsa.com/index.php?m=street&_y=2019%2C2018&_mon=02%2C01%2C12&uid=50299"></a></p>
+    <p><a target="_blank" rel="noopener noreferrer" href="http://instagram.com/pertztheson">Ig</a></p>
+    <p><a target="_blank" rel="noopener noreferrer" href="http://soundcloud.com/pertztheson">Sc</a></p>
+    <p><a target="_blank" rel="noopener noreferrer" href="http://facebook.com/sonbongjun">Fa</a></p>
+    <br>
+    <br>
+    <p><a href="https://www.musinsa.com/index.php?m=street&_y=2019%2C2018&_mon=02%2C01%2C12&uid=50299">0</a></p>
 </p>
 </div>
+<p align="right"><input id="night_day" type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+        target.style.backgroundColor = 'Black';
+        this.value = 'day';
+    } else {
+        target.style.backgroundColor = 'white';
+        this.value = 'night';
+    }
+    "></p>
 <p align="right">2019 <a href="index.html">@pertztheson</a> All Rights Reserved.</p>
 </body>
 </html>
-

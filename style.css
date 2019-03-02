@@ -36,9 +36,12 @@ a:hover{
 
 #opacity img:hover{
     opacity:0.9;
+    transition: opacity 0.5s;
 }
 
-
+#pic img{
+  width:50%;
+}
 p{
     color:gray;
     font-size:11px;
@@ -55,7 +58,7 @@ p{
     padding:10px;
     padding-left:10px;
 }
-    
+
 body {
     margin:10px;
 }
@@ -69,4 +72,3 @@ body {
     #article{
         padding-left:10px;}
     }
-

@@ -21,19 +21,29 @@
    
     
 <div id="article">
-    <br><br>
-    <p><img src="https://i.imgur.com/kERZX1C.jpg" width=100%></p>
-    <p><img src="https://i.imgur.com/yu2NjcX.jpg" width=100%></p>
-    <p><img src="https://i.imgur.com/nUJjBda.jpg" width=100%></p>
-    <p><img src="https://i.imgur.com/68osSu4.jpg" width=100%></p>
-    <p><img src="https://i.imgur.com/0eThvTF.jpg" width=100%></p>
-    <p><img src="https://i.imgur.com/WMAo3wx.jpg" width=100%></p>
-    <p><img src="https://i.imgur.com/VB7JswH.jpg" width=100%></p>
-    <p>Tokyo, 2018.9</p>
+    <br><br><div id="opacity">
+    <p><a href="https://i.imgur.com/kERZX1C.jpg"><img src="https://i.imgur.com/kERZX1C.jpg" width=100%></a></p>
+    <p><a href="https://i.imgur.com/yu2NjcX.jpg"><img src="https://i.imgur.com/yu2NjcX.jpg" width=100%></a></p>
+    <p><a href="https://i.imgur.com/nUJjBda.jpg"><img src="https://i.imgur.com/nUJjBda.jpg" width=100%></a></p>
+    <p><a href="https://i.imgur.com/68osSu4.jpg"><img src="https://i.imgur.com/68osSu4.jpg" width=100%></a></p>
+    <p><a href="https://i.imgur.com/0eThvTF.jpg"><img src="https://i.imgur.com/0eThvTF.jpg" width=100%></a></p>
+    <p><a href="https://i.imgur.com/WMAo3wx.jpg"><img src="https://i.imgur.com/WMAo3wx.jpg" width=100%></a></p>
+    <p><a href="https://i.imgur.com/VB7JswH.jpg"><img src="https://i.imgur.com/VB7JswH.jpg" width=100%></a></p>
+    <p>Tokyo, 2018.9</p></div>
     <!-- <p><img src="" width=100%></p> -->
 </div>
 
 <br><br>
+<p align="right"><input id="night_day" type="button" value="night" onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+        target.style.backgroundColor = 'Black';
+        this.value == 'day';
+    } else {
+        target.style.backgroundColor = 'white';
+        this.value == 'night';
+    }
+    "></p>
 <p align="right">2019 <a href="index.html">@pertztheson</a> All Rights Reserved.</p>
 </body>
 </html>
